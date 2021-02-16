@@ -1,0 +1,13 @@
+:root {
+    --backgroundSize: 400px; /* set background size for your image */
+  }
+body {
+    background-image: url(https://img.freepik.com/free-vector/background-pattern-design_1181-130.jpg?size=338&ext=jpg&ga=GA1.2.1164513915.1612652214);
+    background-size: var(--backgroundSize);
+    animation: infiniteBg 6s linear infinite;
+}
+
+@keyframes infiniteBg {
+from { background-position: 0 0;}
+to {background-position: var(--backgroundSize) 0 ;}
+}
